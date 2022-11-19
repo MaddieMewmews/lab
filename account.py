@@ -18,7 +18,7 @@ class Account:
             return True
 
     def get_balance(self):
-        return self.__account_balance
+        return float(self.__account_balance)
 
     def get_name(self):
         return self.__account_name
